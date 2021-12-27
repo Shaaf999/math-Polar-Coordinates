@@ -1,6 +1,6 @@
 import cmath
 
-z=complex(input())
+z=complex(input())  # complex= real and imaginary ex:1+2i
 
-print(cmath.polar(z)[0])
+print(cmath.polar(z)[0])   # here z=(r,phi) ...so z[0] = r value
 print(cmath.polar(z)[1])
